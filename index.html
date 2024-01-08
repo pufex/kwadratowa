@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>
+      Pierwiastki równania kwadratowego
+    </h1>
+    <p class="equation">
+      ax<sup>2</sup>+bx+c=0
+    </p>
+    <input id="a" type="number" placeholder="a" required>
+    <input id="b" type="number" placeholder="b" required>
+    <input id="c" type="number" placeholder="c" required>
+    <button>Oblicz</button>
+    <div class="result"></div>
+  </div>
+  <div class="chart">
+    <h1 class="">Wykres funkcji</h1>
+    <canvas   id="myChart"></canvas>
+  </div>
+ 
+    
+  <script src="./app.js"></script>
+  
+</body>
+</html>
